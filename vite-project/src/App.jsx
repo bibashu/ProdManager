@@ -10,7 +10,7 @@ function App() {
   return (
  
       <Routes>
-        <Route index path="register" element={<RegisterForm />} />
+        <Route index element={<RegisterForm />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/Produits" element={<Products />} />
       </Routes>
